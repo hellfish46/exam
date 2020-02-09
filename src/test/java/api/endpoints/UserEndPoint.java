@@ -7,7 +7,7 @@ import io.restassured.response.Response;
 
 public class UserEndPoint extends EndPointBase{
 
-    private final String ENDPOINT = "";
+    private final String ENDPOINT = "/register";
 
     public ApiUser getUserObjectFromResponse(Response response){
         return response.then().extract().body().as(ApiUser.class);

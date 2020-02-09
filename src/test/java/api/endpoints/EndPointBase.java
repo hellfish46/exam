@@ -9,9 +9,9 @@ public class EndPointBase {
     }
 
     static {
-        RestAssured.baseURI = "http://localhost";
-        RestAssured.port = 9966;
-        RestAssured.basePath = "/petclinic/api";
+        RestAssured.baseURI = "http://167.172.110.35";
+        RestAssured.port = 80;
+        //RestAssured.basePath = "/register";
     }
 
 }
